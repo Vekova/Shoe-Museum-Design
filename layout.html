@@ -26,11 +26,40 @@
             padding: 1.5rem;
         }
         .row{ border-bottom: 1px solid black;}
+
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .left{
+            display: flex;
+            
+        }
+
+        
+       nav .open{
+            display: none;
+        }
+        nav:hover .open{display: block;}
+
+
     </style>
 </head>
 <body>
     <nav>
-        nav 
+        <div class="left">
+            <div class="ham"><img src="burger_ferme.png" alt=""></div>
+            <div class="open">
+                <a href="">Home</a>
+                <a href="">Shoes</a>
+                <a href="">Leather</a>
+                <a href="">Tools</a>
+                <a href="">Stuff</a>
+            </div>
+        </div> 
+        <div class="lang">FR EN DE</div>
     </nav>
     <main class="row">
 
