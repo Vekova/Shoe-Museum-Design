@@ -8,11 +8,6 @@
    :root { font-family: 'Inter var', sans-serif; }
  }
 
-p{
-    font-size: 11pt;
-    font-weight: 300;
-    line-height: 125%;
-}
 
 @font-face {
     font-family: "Ortica";
@@ -43,6 +38,25 @@ h3{
     margin-bottom: 1.5rem;
 }
 
+h2.boxy{
+    background-color: black;
+    color: white;
+    width: fit-content; 
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    
+    
+}
+
+
+p{
+    font-size: 11pt;
+    font-weight: 300;
+    line-height: 125%;
+}
+
 
 /* utilitaire*/
 img{max-width: 100%;}
@@ -52,9 +66,3 @@ img{max-width: 100%;}
 
 }
 
-
-section{
-    border: 1px solid black;
-    padding: 1.5rem;
-    margin-top: -1px;
-}
