@@ -1,0 +1,25 @@
+/* typogapie */
+@font-face {
+    font-family: "Ortica";
+    src: url("Ortica-Light.woff2");
+}
+
+body{
+    font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4{
+    font-family: "Ortica";
+    font-weight: 300;
+
+}
+h1{font-size: 4rem;
+line-height: 1em;
+}
+
+
+
+/* utilitaire*/
+img{max-width: 100%;}
